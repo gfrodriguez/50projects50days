@@ -4,7 +4,7 @@
  
 | #| Nombre del Proyecto (Español)| Descripción| Tecnologías Clave| Link|
 | -------------|-------------|-------------|-------------|-------------|
-| 1| Tarjetas Expandibles| Tarjetas que se expanden al hacer clic con efecto visual.| CSS Flexbox, Eventos click| |
+| 1| Tarjetas Expandibles| Tarjetas que se expanden al hacer clic con efecto visual.| CSS Flexbox, Eventos click| https://gfrodriguez.github.io/50projects50days/expanding-cards/ |
 | 2| Barra de Progreso| Pasos numerados que se activan secuencialmente.| CSS transform, querySelectorAll| |
 | 3| Navegación Rotatoria| Menú que gira la página en 3D al hacer clic.| CSS rotate(), Toggle de clases| |
 | 4| Búsqueda Ocultable| Barra de búsqueda que se despliega con animación.| CSS Transitions, Eventos focus/blur| |

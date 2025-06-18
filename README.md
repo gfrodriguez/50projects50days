@@ -5,10 +5,10 @@
 | #| Nombre del Proyecto (Español)| Descripción| Tecnologías Clave| Enlace|
 | -------------|-------------|-------------|-------------|-------------|
 | 1| Tarjetas Expandibles| Tarjetas que se expanden al hacer clic con efecto visual.| CSS Flexbox, Eventos click| [Enlace](https://gfrodriguez.github.io/50projects50days/expanding-cards/) |
-| 2| Barra de Progreso| Pasos numerados que se activan secuencialmente.| CSS transform, querySelectorAll| [Enlace](https://github.com/gfrodriguez/50projects50days/tree/main/progress-steps) |
-| 3| Navegación Rotatoria| Menú que gira la página en 3D al hacer clic.| CSS rotate(), Toggle de clases| [Enlace](https://github.com/gfrodriguez/50projects50days/tree/main/rotating-navigation-animation) |
-| 4| Búsqueda Ocultable| Barra de búsqueda que se despliega con animación.| CSS Transitions, Eventos focus/blur| [Enlace](https://github.com/gfrodriguez/50projects50days/tree/main/hidden-search-widget) |
-| 5| Carga con Desenfoque| Imagen que pasa de borrosa a nítida durante la carga.| CSS filter: blur(), setInterval| [Enlace](https://github.com/gfrodriguez/50projects50days/tree/main/blurry-loading)|
+| 2| Barra de Progreso| Pasos numerados que se activan secuencialmente.| CSS transform, querySelectorAll| [Enlace](https://gfrodriguez.github.io/50projects50days/progress-steps) |
+| 3| Navegación Rotatoria| Menú que gira la página en 3D al hacer clic.| CSS rotate(), Toggle de clases| [Enlace](https://gfrodriguez.github.io/50projects50days/rotating-navigation-animation) |
+| 4| Búsqueda Ocultable| Barra de búsqueda que se despliega con animación.| CSS Transitions, Eventos focus/blur| [Enlace](https://gfrodriguez.github.io/50projects50days/hidden-search-widget) |
+| 5| Carga con Desenfoque| Imagen que pasa de borrosa a nítida durante la carga.| CSS filter: blur(), setInterval| [Enlace](https://gfrodriguez.github.io/50projects50days/blurry-loading)|
 | 6| Scroll Animado| Elementos que aparecen con efectos al hacer scroll.| Evento scroll, getBoundingClientRect()| |
 | 7| Página Dividida| Dos paneles que se expanden al pasar el mouse (split screen).| CSS hover, Eventos de mouse| |
 | 8| Formulario con Olas| Efecto de olas en las etiquetas de los inputs.| CSS Animations, Manipulación del DOM| |

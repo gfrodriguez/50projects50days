@@ -1,2 +1,56 @@
 # 50projects50days
+
+### En este repositorio aparecerán los 50 proyectos para 50 días a medida que se vayan realizando.
  
+| #| Nombre del Proyecto (Español)| Descripción| Tecnologías Clave| Link|
+| -------------|-------------|-------------|-------------|-------------|
+| 1| Tarjetas Expandibles| Tarjetas que se expanden al hacer clic con efecto visual.| CSS Flexbox, Eventos click| |
+| 2| Barra de Progreso| Pasos numerados que se activan secuencialmente.| CSS transform, querySelectorAll| |
+| 3| Navegación Rotatoria| Menú que gira la página en 3D al hacer clic.| CSS rotate(), Toggle de clases| |
+| 4| Búsqueda Ocultable| Barra de búsqueda que se despliega con animación.| CSS Transitions, Eventos focus/blur| |
+| 5| Carga con Desenfoque| Imagen que pasa de borrosa a nítida durante la carga.| CSS filter: blur(), setInterval| |
+| 6| Scroll Animado| Elementos que aparecen con efectos al hacer scroll.| Evento scroll, getBoundingClientRect()| |
+| 7| Página Dividida| Dos paneles que se expanden al pasar el mouse (split screen).| CSS hover, Eventos de mouse| |
+| 8| Formulario con Olas| Efecto de olas en las etiquetas de los inputs.| CSS Animations, Manipulación del DOM| |
+| 9| Tablero de Sonidos| Botones que reproducen sonidos al hacer clic.| API Audio(), Eventos click| |
+| 10| Chistes Aleatorios| Muestra chistes aleatorios desde una API.| Fetch API, async/await| |
+| 11| Detector de Teclas| Muestra el código de la tecla presionada.| Evento keydown| |
+| 12| Arrastrar y Soltar| Interfaz para arrastrar y soltar elementos.| HTML5 Drag and Drop API| |
+| 13| Carrusel de Imágenes| Galería deslizable con botones de navegación.| CSS transform, setInterval| |
+| 14| Tablero de Colores| Cuadrícula que cambia de color al pasar el mouse.| mouseover, Math.random()| |
+| 15| Contador de Clics| Contador que guarda el estado en localStorage.| localStorage, Eventos click| |
+| 16| Calculadora| Calculadora funcional con operaciones básicas.| Lógica de operaciones, eval()| |
+| 17| Reloj Digital| Reloj en tiempo real.| new Date(), setInterval| |
+| 18| App del Clima| Muestra el clima usando una API.| Fetch API, Geolocalización| |
+| 19| App de Notas| CRUD de notas con persistencia local.| localStorage, DOM| |
+| 20| Lista de Tareas| Añadir, eliminar y marcar tareas completadas.| Arrays en JS, filter()| |
+| 21| Pokedex| Consume la API de Pokémon para mostrar información.| Fetch API, Async/Await| |
+| 22| Buscador de Películas| Busca películas usando la API de TMDB.| Fetch API, Manejo de JSON| |
+| 23| Conversor de Monedas| Convierte divisas usando tasas de cambio en tiempo real.| API de divisas, fetch| |
+| 24| Buscador de GitHub| Muestra perfiles de GitHub usando su API.| GitHub API, CSS Grid| |
+| 25| Reloj Pomodoro| Temporizador para técnica Pomodoro.| setInterval, Manipulación del DOM| |
+| 26| Generador de Contraseñas| Crea contraseñas aleatorias y seguras.| Math.random(), Strings| |
+| 27| Reproductor de Música| Reproductor básico con controles.| API Audio(), Eventos| |
+| 28| Grabadora de Voz| Graba y reproduce audio desde el navegador.| Web Speech API| |
+| 29| Lector de QR| Escanea códigos QR con la cámara.| Librería qrcode.js| |
+| 30| Mapas Interactivos| Integración de mapas con Google Maps API.| Google Maps SDK| |
+| 31| Juego del Ahorcado| Juego clásico de adivinar palabras.| Arrays, Eventos de teclado| |
+| 32| Tetris| Implementación del juego Tetris.| Canvas API, Lógica de juego| |
+| 33| Chat en Tiempo Real| Chat básico con actualización en tiempo real.| Firebase, Eventos| |
+| 34| App de Dibujo| Permite dibujar en un lienzo.| Canvas, Eventos de mouse| |
+| 35| Machine Learning Básico| Clasificador de imágenes con TensorFlow.js.| TensorFlow.js, ML| |
+| 36| Galería de Imágenes con Filtros| Filtra imágenes por categorías con efectos.| CSS Filters, data-* attributes| |
+| 37| Menú Acordeón| Secciones colapsables que se expanden al hacer clic.| CSS transition, classList.toggle()| |
+| 38| Juego de Memoria| Encuentra pares de cartas iguales.| setTimeout, Lógica de arrays| |
+| 39| Slider de Testimonios| Carrusel de testimonios con transiciones suaves.| CSS transform, Eventos de navegación| |
+| 40| Generador de Frases Aleatorias| Muestra frases inspiradoras al azar.| Arrays, Math.random()| |
+| 41| Reloj Analógico| Reloj con manecillas animadas.| Canvas, requestAnimationFrame| |
+| 42| Validación de Formulario| Valida campos de formulario en tiempo real.| Regex, Eventos input| |
+| 43| Calculadora de IMC| Calcula el Índice de Masa Corporal.| Formularios HTML, Cálculos matemáticos| |
+| 44| App de Gastos| Registra y categoriza gastos personales.| localStorage, Gráficas con Chart.js| |
+| 45| Tablero de Datos (Dashboard)| Muestra métricas con gráficos interactivos.| Chart.js, Fetch API| |
+| 46| Juego de Piedra, Papel o Tijeras| Juego clásico contra la computadora.| Lógica condicional, Math.random()| |
+| 47| Simulador de Préstamos| Calcula cuotas de préstamos con intereses.| Matemáticas financieras, Sliders| |
+| 48| Traductor de Texto| Traduce texto usando una API (ej: Google Translate).| Fetch API, Async/Await| |
+| 49| Clon de Netflix| Interfaz estilo Netflix con películas.| CSS Grid, API de películas| |
+| 50| Tu Proyecto Personal| ¡Crea algo único con lo aprendido!| Libre elección (API, CSS, JS)| |

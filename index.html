@@ -4,19 +4,26 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 	<title>50 proyectos en 50 días</title>
-	<body>
-		<div class="container">
+
+<body>
+	<div class="container">
+		<section class="row align-items-start">
 			<h1 id="50projects50days">50projects50days</h1>
-			<h2 id="subtitulo">En este repositorio aparecerán los 50 proyectos para 50 días a medida que se vayan realizando.</h2>
-			<table>
+			<p id="subtitulo">En este repositorio aparecerán los 50 proyectos para 50 días a medida que se vayan
+				realizando.</p>
+			<table class="table table-striped table-bordered">
 				<thead>
 					<tr>
-						<th>#</th>
-						<th>Nombre del Proyecto (Español)</th>
-						<th>Descripción</th>
-						<th>Tecnologías Clave</th>
-						<th>Link</th>
+						<th scope="col">#</th>
+						<th scope="col">Nombre del Proyecto (Español)</th>
+						<th scope="col">Descripción</th>
+						<th scope="col">Tecnologías Clave</th>
+						<th scope="col">Link</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -25,42 +32,42 @@
 						<td>Tarjetas Expandibles</td>
 						<td>Tarjetas que se expanden al hacer clic con efecto visual.</td>
 						<td>CSS Flexbox, Eventos click</td>
-						<td></td>
+						<td><a href="https://gfrodriguez.github.io/50projects50days/expanding-cards/">https://gfrodriguez.github.io/50projects50days/expanding-cards/</a></td>
 					</tr>
 					<tr>
 						<td>2</td>
 						<td>Barra de Progreso</td>
 						<td>Pasos numerados que se activan secuencialmente.</td>
 						<td>CSS transform, querySelectorAll</td>
-						<td></td>
+						<td><a href="https://gfrodriguez.github.io/50projects50days/progress-steps/">https://gfrodriguez.github.io/50projects50days/progress-steps/</a></td>
 					</tr>
 					<tr>
 						<td>3</td>
 						<td>Navegación Rotatoria</td>
 						<td>Menú que gira la página en 3D al hacer clic.</td>
 						<td>CSS rotate(), Toggle de clases</td>
-						<td></td>
+						<td><a href="https://gfrodriguez.github.io/50projects50days/rotating-navigation-animation/">https://gfrodriguez.github.io/50projects50days/rotating-navigation-animation/</a></td>
 					</tr>
 					<tr>
 						<td>4</td>
 						<td>Búsqueda Ocultable</td>
 						<td>Barra de búsqueda que se despliega con animación.</td>
 						<td>CSS Transitions, Eventos focus/blur</td>
-						<td></td>
+						<td><a href="https://gfrodriguez.github.io/50projects50days/hidden-search-widget/">https://gfrodriguez.github.io/50projects50days/hidden-search-widget/</a></td>
 					</tr>
 					<tr>
 						<td>5</td>
 						<td>Carga con Desenfoque</td>
 						<td>Imagen que pasa de borrosa a nítida durante la carga.</td>
 						<td>CSS filter: blur(), setInterval</td>
-						<td></td>
+						<td><a href="https://gfrodriguez.github.io/50projects50days/blurry-loading/">https://gfrodriguez.github.io/50projects50days/blurry-loading/</a></td>
 					</tr>
 					<tr>
 						<td>6</td>
 						<td>Scroll Animado</td>
 						<td>Elementos que aparecen con efectos al hacer scroll.</td>
 						<td>Evento scroll, getBoundingClientRect()</td>
-						<td></td>
+						<td><a href="https://gfrodriguez.github.io/50projects50days/scroll-animation/">https://gfrodriguez.github.io/50projects50days/scroll-animation/</a></td>
 					</tr>
 					<tr>
 						<td>7</td>
@@ -371,7 +378,9 @@
 					</tr>
 				</tbody>
 			</table>
-		</div>
-	</body>
+		</section>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
 
 </html>

@@ -9,7 +9,7 @@
 | 3| Navegación Rotatoria| Menú que gira la página en 3D al hacer clic.| CSS rotate(), Toggle de clases| [Enlace](https://gfrodriguez.github.io/50projects50days/rotating-navigation-animation) |
 | 4| Búsqueda Ocultable| Barra de búsqueda que se despliega con animación.| CSS Transitions, Eventos focus/blur| [Enlace](https://gfrodriguez.github.io/50projects50days/hidden-search-widget) |
 | 5| Carga con Desenfoque| Imagen que pasa de borrosa a nítida durante la carga.| CSS filter: blur(), setInterval| [Enlace](https://gfrodriguez.github.io/50projects50days/blurry-loading)|
-| 6| Scroll Animado| Elementos que aparecen con efectos al hacer scroll.| Evento scroll, getBoundingClientRect()| |
+| 6| Scroll Animado| Elementos que aparecen con efectos al hacer scroll.| Evento scroll, getBoundingClientRect()| [Enlace](https://gfrodriguez.github.io/50projects50days/scroll-animation) |
 | 7| Página Dividida| Dos paneles que se expanden al pasar el mouse (split screen).| CSS hover, Eventos de mouse| |
 | 8| Formulario con Olas| Efecto de olas en las etiquetas de los inputs.| CSS Animations, Manipulación del DOM| |
 | 9| Tablero de Sonidos| Botones que reproducen sonidos al hacer clic.| API Audio(), Eventos click| |

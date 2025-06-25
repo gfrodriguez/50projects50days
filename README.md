@@ -13,7 +13,7 @@
 | 7| Página Dividida| Dos paneles que se expanden al pasar el mouse (split screen).| CSS hover, Eventos de mouse| [Enlace](https://gfrodriguez.github.io/50projects50days/split-landing-page/)|
 | 8| Formulario con Olas| Efecto de olas en las etiquetas de los inputs.| CSS Animations, Manipulación del DOM| [Enlace](https://gfrodriguez.github.io/50projects50days/form-wave/)|
 | 9| Tablero de Sonidos| Botones que reproducen sonidos al hacer clic.| API Audio(), Eventos click| [Enlace](https://gfrodriguez.github.io/50projects50days/sound-board/)|
-| 10| Chistes Aleatorios| Muestra chistes aleatorios desde una API.| Fetch API, async/await| |
+| 10| Chistes Aleatorios| Muestra chistes aleatorios desde una API.| Fetch API, async/await| [Enlace](https://gfrodriguez.github.io/50projects50days/dad-jokes/)|
 | 11| Detector de Teclas| Muestra el código de la tecla presionada.| Evento keydown| |
 | 12| Arrastrar y Soltar| Interfaz para arrastrar y soltar elementos.| HTML5 Drag and Drop API| |
 | 13| Carrusel de Imágenes| Galería deslizable con botones de navegación.| CSS transform, setInterval| |

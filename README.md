@@ -15,7 +15,7 @@
 | 9| Tablero de Sonidos| Botones que reproducen sonidos al hacer clic.| API Audio(), Eventos click| [Enlace](https://gfrodriguez.github.io/50projects50days/sound-board/)|
 | 10| Chistes Aleatorios| Muestra chistes aleatorios desde una API.| Fetch API, async/await| [Enlace](https://gfrodriguez.github.io/50projects50days/dad-jokes/)|
 | 11| Detector de Teclas| Muestra el código de la tecla presionada.| Evento keydown| [Enlace](https://gfrodriguez.github.io/50projects50days/event-keycodes/)|
-| 12| Arrastrar y Soltar| Interfaz para arrastrar y soltar elementos.| HTML5 Drag and Drop API| |
+| 12| Acordeón de Preguntas Frecuentes (FAQ) | Componente interactivo que expande/contrae respuestas al hacer clic en cada pregunta.| HTML, CSS (transiciones)| [Enlace](https://gfrodriguez.github.io/50projects50days/faq-collapse/)|
 | 13| Carrusel de Imágenes| Galería deslizable con botones de navegación.| CSS transform, setInterval| |
 | 14| Tablero de Colores| Cuadrícula que cambia de color al pasar el mouse.| mouseover, Math.random()| |
 | 15| Contador de Clics| Contador que guarda el estado en localStorage.| localStorage, Eventos click| |

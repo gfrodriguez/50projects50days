@@ -17,7 +17,7 @@
 | 11| Detector de Teclas| Muestra el código de la tecla presionada.| Evento keydown| [Enlace](https://gfrodriguez.github.io/50projects50days/event-keycodes/)|
 | 12| Acordeón de Preguntas Frecuentes (FAQ) | Componente interactivo que expande/contrae respuestas al hacer clic en cada pregunta.| HTML, CSS (transiciones)| [Enlace](https://gfrodriguez.github.io/50projects50days/faq-collapse/)|
 | 13| Selector Aleatorio de Opciones | Herramienta que selecciona una opción al azar de una lista ingresada por el usuario.| HTML, CSS, JavaScript (Math.random(), setTimeout) | [Enlace](https://gfrodriguez.github.io/50projects50days/random-choice-picker/)|
-| 14| Tablero de Colores| Cuadrícula que cambia de color al pasar el mouse.| mouseover, Math.random()| |
+| 14| Navegación Animada | Barra de navegación interactiva con efectos visuales al hacer hover/click | CSS (transitions, keyframes), JavaScript (para triggers)|[Enlace](https://gfrodriguez.github.io/50projects50days/animated-navigation/) |
 | 15| Contador de Clics| Contador que guarda el estado en localStorage.| localStorage, Eventos click| |
 | 16| Calculadora| Calculadora funcional con operaciones básicas.| Lógica de operaciones, eval()| |
 | 17| Reloj Digital| Reloj en tiempo real.| new Date(), setInterval| |

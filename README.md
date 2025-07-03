@@ -19,7 +19,7 @@
 | 13| Selector Aleatorio de Opciones | Herramienta que selecciona una opción al azar de una lista ingresada por el usuario.| HTML, CSS, JavaScript (Math.random(), setTimeout) | [Enlace](https://gfrodriguez.github.io/50projects50days/random-choice-picker/)|
 | 14| Navegación Animada | Barra de navegación interactiva con efectos visuales al hacer hover/click | CSS (transitions, keyframes), JavaScript (para triggers)|[Enlace](https://gfrodriguez.github.io/50projects50days/animated-navigation/) |
 | 15| Contador Incremental | Componente visual que aumenta números de forma animada hasta llegar a un valor objetivo.| HTML, CSS (animaciones), JavaScript (setInterval, Math)| [Enlace](https://gfrodriguez.github.io/50projects50days/incrementing-counter/)|
-| 16| Calculadora| Calculadora funcional con operaciones básicas.| Lógica de operaciones, eval()| |
+| 16| Contador de Hidratación | Aplicación que ayuda a usuarios a llevar un seguimiento de su consumo diario de agua, mostrando progreso visual.| HTML, CSS (flexbox/grid), JavaScript (DOM manipulation, localStorage)| [Enlace](https://gfrodriguez.github.io/50projects50days/drink-water/)|
 | 17| Reloj Digital| Reloj en tiempo real.| new Date(), setInterval| |
 | 18| App del Clima| Muestra el clima usando una API.| Fetch API, Geolocalización| |
 | 19| App de Notas| CRUD de notas con persistencia local.| localStorage, DOM| |

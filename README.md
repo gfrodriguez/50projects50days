@@ -20,12 +20,12 @@
 | 14| Navegación Animada | Barra de navegación interactiva con efectos visuales al hacer hover/click | CSS (transitions, keyframes), JavaScript (para triggers)|[Enlace](https://gfrodriguez.github.io/50projects50days/animated-navigation/) |
 | 15| Contador Incremental | Componente visual que aumenta números de forma animada hasta llegar a un valor objetivo.| HTML, CSS (animaciones), JavaScript (setInterval, Math)| [Enlace](https://gfrodriguez.github.io/50projects50days/incrementing-counter/)|
 | 16| Contador de Hidratación | Aplicación que ayuda a usuarios a llevar un seguimiento de su consumo diario de agua, mostrando progreso visual.| HTML, CSS (flexbox/grid), JavaScript (DOM manipulation, localStorage)| [Enlace](https://gfrodriguez.github.io/50projects50days/drink-water/)|
+| 22| Buscador de Películas | Busca películas usando la API de TMDB. | Fetch API, Manejo de JSON| [Enlace](https://gfrodriguez.github.io/50projects50days/movie-app/)|
 | 17| Reloj Digital| Reloj en tiempo real.| new Date(), setInterval| |
 | 18| App del Clima| Muestra el clima usando una API.| Fetch API, Geolocalización| |
 | 19| App de Notas| CRUD de notas con persistencia local.| localStorage, DOM| |
 | 20| Lista de Tareas| Añadir, eliminar y marcar tareas completadas.| Arrays en JS, filter()| |
 | 21| Pokedex| Consume la API de Pokémon para mostrar información.| Fetch API, Async/Await| |
-| 22| Buscador de Películas| Busca películas usando la API de TMDB.| Fetch API, Manejo de JSON| |
 | 23| Conversor de Monedas| Convierte divisas usando tasas de cambio en tiempo real.| API de divisas, fetch| |
 | 24| Buscador de GitHub| Muestra perfiles de GitHub usando su API.| GitHub API, CSS Grid| |
 | 25| Reloj Pomodoro| Temporizador para técnica Pomodoro.| setInterval, Manipulación del DOM| |

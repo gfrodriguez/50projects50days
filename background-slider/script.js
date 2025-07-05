@@ -5,6 +5,8 @@ const rightBtn = document.getElementById('right');
 
 let activeSlide = 0;
 
+setBgToBody();
+
 rightBtn.addEventListener('click', () => {
     activeSlide++;
     if (activeSlide > slides.length - 1) {

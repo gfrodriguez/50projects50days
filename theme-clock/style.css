@@ -37,9 +37,9 @@ body {
   border: 0;
   border-radius: 4px;
   padding: 8px 12px;
-  position: absolute;
-  top: 100px;
   z-index: 10;
+  position: relative;
+  top: 30px;
 }
 
 .toggle:focus {
@@ -53,10 +53,14 @@ body {
   align-items: center;
 }
 
-.clock {
+.analog-clock {
   position: relative;
   width: 200px;
   height: 200px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--primary-color);
+  border-radius: 50%;
 }
 
 .needle {
@@ -76,12 +80,12 @@ body {
 
 .needle.minute {
   transform: translate(-50%, -100%) rotate(0deg);
-  height: 100px;
+  height: 97px;
 }
 
 .needle.second {
   transform: translate(-50%, -100%) rotate(0deg);
-  height: 100px;
+  height: 97px;
   background-color: #e74c3c;
 }
 
@@ -108,6 +112,18 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.digital-clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.none {
+  display: none;
+}
+
 .time {
   font-size: 60px;
 }
@@ -131,6 +147,48 @@ body {
   line-height: 18px;
   transition: all 0.5s ease-in;
   font-size: 12px;
+}
+
+.hour,
+.minute,
+.second {
+  transition: transform 0.5s cubic-bezier(0.4, 2.3, 0.3, 1);
+}
+
+.twelve {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.six {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.three {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.nine {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: var(--primary-color);
 }
 
 @media (max-height: 500px) {

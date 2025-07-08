@@ -3,12 +3,13 @@ const minuteEl = document.querySelector('.minute');
 const secondEl = document.querySelector('.second');
 const timeEl = document.querySelector('.time');
 const dateEl = document.querySelector('.date');
-const toggle = document.querySelector('.toggle');
+const theme = document.getElementById('theme');
+const digital = document.getElementById('digital');
 
 const days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 const months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
-toggle.addEventListener('click', (e) => {
+theme.addEventListener('click', (e) => {
     const html = document.querySelector('html');
     if (html.classList.contains('dark')){
         html.classList.remove('dark');
@@ -19,30 +20,44 @@ toggle.addEventListener('click', (e) => {
     }
 });
 
+digital.addEventListener('click', (e) => {
+    const analogClock= document.querySelector('.analog-clock');
+    const digitalClock = document.querySelector('.digital-clock');
+    if (digitalClock.classList.contains('none')) {
+        digitalClock.classList.remove('none');
+        analogClock.classList.add('none');
+        e.target.innerHTML = 'Modo Analógico';
+    } else {
+        analogClock.classList.remove('none');
+        digitalClock.classList.add('none');
+        e.target.innerHTML = 'Modo Digital';
+    }
+});
+
 function setTime() {
     const time = new Date();
     const month = time.getMonth();
     const day = time.getDay();
     const date = time.getDate();
     const hours = time.getHours();
-    const hoursForClock = hours >= 13 ? hours % 12 : hours;
+    const hoursForClock = hours % 12 || 12;
     const minutes = time.getMinutes();
     const seconds = time.getSeconds();
     const ampm = hours >= 12 ? 'PM' : 'AM'
 
-    hourEl.style.transform = `translate(-50%, -100%) rotate(${scale(hoursForClock, 0, 11, 0, 360)}deg)`
-    minuteEl.style.transform = `translate(-50%, -100%) rotate(${scale(minutes, 0, 59, 0, 360)}deg)`
-    secondEl.style.transform = `translate(-50%, -100%) rotate(${scale(seconds, 0, 59, 0, 360)}deg)`
+    const secondRotation = seconds * 6 + (minutes * 360) + (hours % 12 * 360 * 60);
+    const minuteRotation = minutes * 6 + seconds * 0.1;
+    const hourRotation = (hours % 12) * 30 + minutes * 0.5;
 
-    timeEl.innerHTML = `${hoursForClock}:${minutes < 10 ? `0${minutes}` : minutes} ${ampm}`
+    hourEl.style.transform = `translate(-50%, -100%) rotate(${hourRotation}deg)`
+    minuteEl.style.transform = `translate(-50%, -100%) rotate(${minuteRotation}deg)`
+    secondEl.style.transform = `translate(-50%, -100%) rotate(${secondRotation}deg)`
+
+    timeEl.innerHTML = `${hoursForClock}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds} ${ampm}`
     dateEl.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>`
+    
+    //console.log("Hora:", hourRotation, "Minutos:", minuteRotation, "Segundos:", secondRotation);
 }
-
-// StackOverflow https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
-const scale = (num, in_min, in_max, out_min, out_max) => {
-    return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
-  }
-
 
 setTime();
 

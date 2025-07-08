@@ -10,17 +10,27 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <button class="toggle">Modo Oscuro</button>
     <div class="clock-container">
-      <div class="clock">
+      <div class="analog-clock">
         <div class="needle hour"></div>
         <div class="needle minute"></div>
         <div class="needle second"></div>
         <div class="center-point"></div>
+        <div class="twelve">12</div>
+        <div class="six">6</div>
+        <div class="three">3</div>
+        <div class="nine">9</div>
       </div>
-      <div class="time"></div>
-      <div class="date"></div>
+      <div class="digital-clock none">
+        <div class="time"></div>
+        <div class="date"></div>
+      </div>
+      <div class="buttons">
+        <button class="toggle" id="theme">Modo Oscuro</button>
+        <button class="toggle" id="digital">Modo Digital</button>
+      </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

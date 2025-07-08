@@ -22,7 +22,7 @@
 | 16| Contador de Hidratación | Aplicación que ayuda a usuarios a llevar un seguimiento de su consumo diario de agua, mostrando progreso visual.| HTML, CSS (flexbox/grid), JavaScript (DOM manipulation, localStorage)| [Enlace](https://gfrodriguez.github.io/50projects50days/drink-water/)|
 | 17| Buscador de Películas | Busca películas usando la API de TMDB. | Fetch API, Manejo de JSON| [Enlace](https://gfrodriguez.github.io/50projects50days/movie-app/)|
 | 18| Slider de Fondo| Componente que muestra imágenes de fondo en forma carrusel con transiciones suaves.| HTML, CSS (transiciones/animaciones), JavaScript (eventos)| [Enlace](https://gfrodriguez.github.io/50projects50days/background-slider/) |
-| 19| Reloj Analógico| Reloj analógico con manecillas animadas, mostrando la hora actual en tiempo real.| HTML, CSS (variables, flexbox), JavaScript (Date, eventos DOM)| [Enlace](https://gfrodriguez.github.io/50projects50days/theme-clock/)|
+| 19| Reloj Analógico o Digital| Reloj analógico con manecillas animadas o digital, mostrando la hora actual en tiempo real.| HTML, CSS (variables, flexbox), JavaScript (Date, eventos DOM)| [Enlace](https://gfrodriguez.github.io/50projects50days/theme-clock/)|
 | 18| App del Clima| Muestra el clima usando una API.| Fetch API, Geolocalización| |
 | 19| App de Notas| CRUD de notas con persistencia local.| localStorage, DOM| |
 | 20| Lista de Tareas| Añadir, eliminar y marcar tareas completadas.| Arrays en JS, filter()| |

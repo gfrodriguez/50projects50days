@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Aplicación de Dibujo</title>
+        <meta name="description" content="Canvas interactivo que permite dibujar con diferentes herramientas y colores." />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <div class="toolbox">
+            <button id="decrease">-</button>
+            <span id="size">10</span>
+            <button id="increase">+</button>
+            <input id="color" type="color" value="#000000" />
+            <button id="clear">X</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

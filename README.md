@@ -25,7 +25,9 @@
 | 19| Reloj Analógico o Digital| Reloj analógico con manecillas animadas o digital, mostrando la hora actual en tiempo real.| HTML, CSS (variables, flexbox), JavaScript (Date, eventos DOM)| [Enlace](https://gfrodriguez.github.io/50projects50days/theme-clock/)|
 | 20| Efecto de Ondulación en Botones| Efecto visual donde al hacer clic en un botón se genera una onda circular que se expande desde el punto de contacto, mejorando la retroalimentación visual.| HTML, CSS (animaciones), JavaScript (eventos de clic)| [Enlace](https://gfrodriguez.github.io/50projects50days/button-ripple-effect/)|
 | 21| Arrastrar y Soltar| Interfaz interactiva que permite mover elementos entre contenedores mediante arrastre con el ratón o toques en pantalla.| HTML5 Drag and Drop API, JavaScript (eventos drag), CSS (feedback visual)| [Enlace](https://gfrodriguez.github.io/50projects50days/drag-n-drop/)|
-| 22| Lista de Tareas| Muestra y gestiona una lista de tareas.| HTML, CSS (flexbox), JavaScript (DOM manipulation)
+| 22| Aplicación de Dibujo| Canvas interactivo que permite dibujar con diferentes herramientas y colores.| HTML5 Canvas API, JavaScript (eventos de ratón/táctiles), CSS (interfaz de herramientas)| [Enlace](https://gfrodriguez.github.io/50projects50days/drawing-app/) |
+| 23| Conversor de Monedas| Convierte divisas usando tasas de cambio en tiempo real.| API de divisas, fetch| |
+| 24| Buscador de GitHub| Muestra perfiles de GitHub usando su API.| GitHub API, CSS Grid| [Enlace
 | 20| Lista de Tareas| Añadir, eliminar y marcar tareas completadas.| Arrays en JS, filter()| |
 | 21| Pokedex| Consume la API de Pokémon para mostrar información.| Fetch API, Async/Await| |
 | 23| Conversor de Monedas| Convierte divisas usando tasas de cambio en tiempo real.| API de divisas, fetch| |

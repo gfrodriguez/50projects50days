@@ -28,7 +28,7 @@
 | 22| Aplicación de Dibujo| Canvas interactivo que permite dibujar con diferentes herramientas y colores.| HTML5 Canvas API, JavaScript (eventos de ratón/táctiles), CSS (interfaz de herramientas)| [Enlace](https://gfrodriguez.github.io/50projects50days/drawing-app/) |
 | 23| Cargador Cinético| Animación de carga con movimiento continuo y fluido que simula energía cinética.| CSS (animaciones, keyframes), HTML (estructura mínima)| [Enlace](https://gfrodriguez.github.io/50projects50days/kinetic-loader/)|
 | 24| Marcador de Contenido| Efecto de carga progresiva que simula la estructura del contenido antes de que cargue.| CSS (animaciones, gradientes), JavaScript (manipulación DOM)| [Enlace](https://gfrodriguez.github.io/50projects50days/content-placeholder/)|
-| 20| Lista de Tareas| Añadir, eliminar y marcar tareas completadas.| Arrays en JS, filter()| |
+| 25| Barra de Navegación Fija| Barra que permanece visible al hacer scroll, con efectos de transición.| CSS (position: sticky), JavaScript (scroll events)| [Enlace](https://gfrodriguez.github.io/50projects50days/sticky-navbar/)|
 | 21| Pokedex| Consume la API de Pokémon para mostrar información.| Fetch API, Async/Await| |
 | 23| Conversor de Monedas| Convierte divisas usando tasas de cambio en tiempo real.| API de divisas, fetch| |
 | 24| Buscador de GitHub| Muestra perfiles de GitHub usando su API.| GitHub API, CSS Grid| |

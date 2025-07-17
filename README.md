@@ -29,7 +29,7 @@
 | 23| Cargador Cinético| Animación de carga con movimiento continuo y fluido que simula energía cinética.| CSS (animaciones, keyframes), HTML (estructura mínima)| [Enlace](https://gfrodriguez.github.io/50projects50days/kinetic-loader/)|
 | 24| Marcador de Contenido| Efecto de carga progresiva que simula la estructura del contenido antes de que cargue.| CSS (animaciones, gradientes), JavaScript (manipulación DOM)| [Enlace](https://gfrodriguez.github.io/50projects50days/content-placeholder/)|
 | 25| Barra de Navegación Fija| Barra que permanece visible al hacer scroll, con efectos de transición.| CSS (position: sticky), JavaScript (scroll events)| [Enlace](https://gfrodriguez.github.io/50projects50days/sticky-navbar/)|
-| 21| Pokedex| Consume la API de Pokémon para mostrar información.| Fetch API, Async/Await| |
+| 21| Deslizador Vertical Doble	| Componente con dos paneles que se deslizan verticalmente en direcciones opuestas.| CSS Transform, JavaScript (eventos de scroll/touch), Flexbox/Grid| [Enlace](https://gfrodriguez.github.io/50projects50days/double-vertical-slider/)|
 | 23| Conversor de Monedas| Convierte divisas usando tasas de cambio en tiempo real.| API de divisas, fetch| |
 | 24| Buscador de GitHub| Muestra perfiles de GitHub usando su API.| GitHub API, CSS Grid| |
 | 25| Reloj Pomodoro| Temporizador para técnica Pomodoro.| setInterval, Manipulación del DOM| |

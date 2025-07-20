@@ -31,7 +31,7 @@
 | 25| Barra de Navegación Fija| Barra que permanece visible al hacer scroll, con efectos de transición.| CSS (position: sticky), JavaScript (scroll events)| [Enlace](https://gfrodriguez.github.io/50projects50days/sticky-navbar/)|
 | 26| Deslizador Vertical Doble	| Componente con dos paneles que se deslizan verticalmente en direcciones opuestas.| CSS Transform, JavaScript (eventos de scroll/touch), Flexbox/Grid| [Enlace](https://gfrodriguez.github.io/50projects50days/double-vertical-slider/)|
 | 27| Notificación Toast| Mensaje emergente temporal que aparece en la interfaz para mostrar información al usuario.| CSS (animaciones), JavaScript (setTimeout)| [Enlace](https://gfrodriguez.github.io/50projects50days/toast-notification/)|
-| 24| Buscador de GitHub| Muestra perfiles de GitHub usando su API.| GitHub API, CSS Grid| |
+| 28| Buscador de Perfiles de GitHub| Aplicación que busca y muestra perfiles de GitHub usando su API, con diseño responsive.| GitHub API, Fetch/Async-Await, CSS Grid/Flexbox| [Enlace](https://gfrodriguez.github.io/50projects50days/github-profiles/)|
 | 25| Reloj Pomodoro| Temporizador para técnica Pomodoro.| setInterval, Manipulación del DOM| |
 | 26| Generador de Contraseñas| Crea contraseñas aleatorias y seguras.| Math.random(), Strings| |
 | 27| Reproductor de Música| Reproductor básico con controles.| API Audio(), Eventos| |

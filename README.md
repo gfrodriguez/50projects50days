@@ -32,7 +32,7 @@
 | 26| Deslizador Vertical Doble	| Componente con dos paneles que se deslizan verticalmente en direcciones opuestas.| CSS Transform, JavaScript (eventos de scroll/touch), Flexbox/Grid| [Enlace](https://gfrodriguez.github.io/50projects50days/double-vertical-slider/)|
 | 27| Notificación Toast| Mensaje emergente temporal que aparece en la interfaz para mostrar información al usuario.| CSS (animaciones), JavaScript (setTimeout)| [Enlace](https://gfrodriguez.github.io/50projects50days/toast-notification/)|
 | 28| Buscador de Perfiles de GitHub| Aplicación que busca y muestra perfiles de GitHub usando su API, con diseño responsive.| GitHub API, Fetch/Async-Await, CSS Grid/Flexbox| [Enlace](https://gfrodriguez.github.io/50projects50days/github-profiles/)|
-| 25| Reloj Pomodoro| Temporizador para técnica Pomodoro.| setInterval, Manipulación del DOM| |
+| 29| Doble Click para Corazón| Efecto visual donde un doble clic en una imagen muestra un corazón animado que escala y se desvanece.| JavaScript (eventos de clic), CSS (animaciones keyframes)| [Enlace](https://gfrodriguez.github.io/50projects50days/double-click-heart/)|
 | 26| Generador de Contraseñas| Crea contraseñas aleatorias y seguras.| Math.random(), Strings| |
 | 27| Reproductor de Música| Reproductor básico con controles.| API Audio(), Eventos| |
 | 28| Grabadora de Voz| Graba y reproduce audio desde el navegador.| Web Speech API| |

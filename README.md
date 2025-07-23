@@ -33,7 +33,7 @@
 | 27| Notificación Toast| Mensaje emergente temporal que aparece en la interfaz para mostrar información al usuario.| CSS (animaciones), JavaScript (setTimeout)| [Enlace](https://gfrodriguez.github.io/50projects50days/toast-notification/)|
 | 28| Buscador de Perfiles de GitHub| Aplicación que busca y muestra perfiles de GitHub usando su API, con diseño responsive.| GitHub API, Fetch/Async-Await, CSS Grid/Flexbox| [Enlace](https://gfrodriguez.github.io/50projects50days/github-profiles/)|
 | 29| Doble Click para Corazón| Efecto visual donde un doble clic en una imagen muestra un corazón animado que escala y se desvanece.| JavaScript (eventos de clic), CSS (animaciones keyframes)| [Enlace](https://gfrodriguez.github.io/50projects50days/double-click-heart/)|
-| 26| Generador de Contraseñas| Crea contraseñas aleatorias y seguras.| Math.random(), Strings| |
+| 30| Efecto de Texto Automático| Animación que simula escritura automática, borrado y repetición de texto.| JavaScript (setInterval), CSS (animaciones), Manipulación de Strings| [Enlace](https://gfrodriguez.github.io/50projects50days/auto-text-effect/)|
 | 27| Reproductor de Música| Reproductor básico con controles.| API Audio(), Eventos| |
 | 28| Grabadora de Voz| Graba y reproduce audio desde el navegador.| Web Speech API| |
 | 29| Lector de QR| Escanea códigos QR con la cámara.| Librería qrcode.js| |

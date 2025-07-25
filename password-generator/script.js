@@ -1,80 +1,101 @@
-const resultEl = document.getElementById('result');
-const lengthEl = document.getElementById('length');
-const uppercaseEl = document.getElementById('uppercase');
-const lowercaseEl = document.getElementById('lowercase');
-const numbersEl = document.getElementById('numbers');
-const symbolsEl = document.getElementById('symbols');
-const generateEl = document.getElementById('generate');
-const clipboardEl = document.getElementById('clipboard');
+const resultEl = document.getElementById("result");
+const lengthEl = document.getElementById("length");
+const uppercaseEl = document.getElementById("uppercase");
+const lowercaseEl = document.getElementById("lowercase");
+const numbersEl = document.getElementById("numbers");
+const symbolsEl = document.getElementById("symbols");
+const generateEl = document.getElementById("generate");
+const clipboardEl = document.getElementById("clipboard");
 
 const randomFunc = {
-    lower: getRandomLower,
-    upper: getRandomUpper,
-    number: getRandomNumber,
-    symbol: getRandomSymbol
-}
-
-console.log(randomFunc);
+  lower: getRandomLower,
+  upper: getRandomUpper,
+  number: getRandomNumber,
+  symbol: getRandomSymbol,
+};
 
 function getRandomLower() {
-    return String.fromCharCode(Math.floor(crypto.getRandomValues(new Uint8Array(1))/256*26) + 97)
+  return String.fromCharCode(
+    Math.floor((crypto.getRandomValues(new Uint8Array(1)) / 256) * 26) + 97
+  );
 }
 
 function getRandomUpper() {
-    return String.fromCharCode(Math.floor(crypto.getRandomValues(new Uint8Array(1))/256*26)+65)
+  return String.fromCharCode(
+    Math.floor((crypto.getRandomValues(new Uint8Array(1)) / 256) * 26) + 65
+  );
 }
 
 function getRandomNumber() {
-    return String.fromCharCode(Math.floor(crypto.getRandomValues(new Uint8Array(1))/256*10) + 48)
+  return String.fromCharCode(
+    Math.floor((crypto.getRandomValues(new Uint8Array(1)) / 256) * 10) + 48
+  );
 }
 
 function getRandomSymbol() {
-    const symbols = '!@#$%^&*(){}[]=<>/,.'
-    return symbols[Math.floor(crypto.getRandomValues(new Uint8Array(1))/256* symbols.length)]
+  const symbols = "!@#$%^&*(){}[]=<>/,.";
+  return symbols[
+    Math.floor(
+      (crypto.getRandomValues(new Uint8Array(1)) / 256) * symbols.length
+    )
+  ];
 }
 
+clipboardEl.addEventListener("click", () => {
+  const textarea = document.createElement("textarea");
+  const password = resultEl.innerText;
 
-clipboardEl.addEventListener('click', () => {
-    const textarea = document.createElement('textarea')
-    const password = resultEl.innerText
+  if (!password) {
+    return;
+  }
 
-    if(!password) { return }
+  textarea.value = password;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  textarea.remove();
+  alert("¡Contraseña copiada al portapapeles!");
+});
 
-    textarea.value = password
-    document.body.appendChild(textarea)
-    textarea.select()
-    document.execCommand('copy')
-    textarea.remove()
-    alert('¡Contraseña copiada al portapapeles!')
-})
+generateEl.addEventListener("click", () => {
+  const length = +lengthEl.value;
+  const hasLower = lowercaseEl.checked;
+  const hasUpper = uppercaseEl.checked;
+  const hasNumber = numbersEl.checked;
+  const hasSymbol = symbolsEl.checked;
 
-generateEl.addEventListener('click', () => {
-    const length = +lengthEl.value
-    const hasLower = lowercaseEl.checked
-    const hasUpper = uppercaseEl.checked
-    const hasNumber = numbersEl.checked
-    const hasSymbol = symbolsEl.checked
-
-    resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length)
-})
+  resultEl.innerText = generatePassword(
+    hasLower,
+    hasUpper,
+    hasNumber,
+    hasSymbol,
+    length
+  );
+});
 
 function generatePassword(lower, upper, number, symbol, length) {
-    let generatedPassword = ''
-    const typesCount = lower + upper + number + symbol
-    const typesArr = [{lower}, {upper}, {number}, {symbol}].filter(item => Object.values(item)[0])
-    
-    if(typesCount === 0) {
-        return ''
-    }
+  let generatedPassword = "";
+  const typesCount = lower + upper + number + symbol;
+  const typesArr = [{ lower }, { upper }, { number }, { symbol }].filter(
+    (item) => Object.values(item)[0]
+  );
 
-    for(let i = 0; i < length; i += typesCount) {
-        typesArr.forEach(type => {
-            const funcName = Object.keys(type)[0]
-            generatedPassword += randomFunc[funcName]()
-        })
-    }
+  if (typesCount === 0) {
+    return "";
+  }
 
-    const finalPassword = generatedPassword.slice(0, length)
+  for (let i = 0; i < length; i += typesCount) {
+    typesArr.forEach((type) => {
+      const funcName = Object.keys(type)[0];
+      generatedPassword += randomFunc[funcName]();
+    });
+  }
 
-    return finalPassword
+  const finalPassword = generatedPassword
+    .slice(0, length)
+    .split("")
+    .sort(() => 0.5 - Math.random())
+    .join("");
+
+  return finalPassword;
 }

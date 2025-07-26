@@ -35,7 +35,7 @@
 | 29| Doble Click para Corazón| Efecto visual donde un doble clic en una imagen muestra un corazón animado que escala y se desvanece.| JavaScript (eventos de clic), CSS (animaciones keyframes)| [Enlace](https://gfrodriguez.github.io/50projects50days/double-click-heart/)|
 | 30| Efecto de Texto Automático| Animación que simula escritura automática, borrado y repetición de texto.| JavaScript (setInterval), CSS (animaciones), Manipulación de Strings| [Enlace](https://gfrodriguez.github.io/50projects50days/auto-text-effect/)|
 | 31| Generador de Contraseñas| Aplicación que crea contraseñas seguras con opciones de personalización.| JavaScript (Math.random, crypto.getRandomValues), CSS (interfaz)| [Enlace](https://gfrodriguez.github.io/50projects50days/password-generator/)|
-| 28| Grabadora de Voz| Graba y reproduce audio desde el navegador.| Web Speech API| |
+| 32| Bueno, Barato, Rápido	| Selector interactivo que demuestra el principio "Solo puedes elegir 2 de 3".| HTML (inputs tipo checkbox), CSS (animaciones, :checked), JavaScript (lógica de desactivación)| [Enlace](https://gfrodriguez.github.io/50projects50days/good-cheap-fast/)|
 | 29| Lector de QR| Escanea códigos QR con la cámara.| Librería qrcode.js| |
 | 30| Mapas Interactivos| Integración de mapas con Google Maps API.| Google Maps SDK| |
 | 31| Juego del Ahorcado| Juego clásico de adivinar palabras.| Arrays, Eventos de teclado| |

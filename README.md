@@ -36,7 +36,7 @@
 | 30| Efecto de Texto Automático| Animación que simula escritura automática, borrado y repetición de texto.| JavaScript (setInterval), CSS (animaciones), Manipulación de Strings| [Enlace](https://gfrodriguez.github.io/50projects50days/auto-text-effect/)|
 | 31| Generador de Contraseñas| Aplicación que crea contraseñas seguras con opciones de personalización.| JavaScript (Math.random, crypto.getRandomValues), CSS (interfaz)| [Enlace](https://gfrodriguez.github.io/50projects50days/password-generator/)|
 | 32| Bueno, Barato, Rápido	| Selector interactivo que demuestra el principio "Solo puedes elegir 2 de 3".| HTML (inputs tipo checkbox), CSS (animaciones, :checked), JavaScript (lógica de desactivación)| [Enlace](https://gfrodriguez.github.io/50projects50days/good-cheap-fast/)|
-| 29| Lector de QR| Escanea códigos QR con la cámara.| Librería qrcode.js| |
+| 33| Aplicación de Notas| App para crear, editar, eliminar y buscar notas con almacenamiento local.| HTML5 (ContentEditable), CSS (Grid/Flexbox), JavaScript (CRUD, localStorage)| [Enlace](https://gfrodriguez.github.io/50projects50days/notes-app/)|
 | 30| Mapas Interactivos| Integración de mapas con Google Maps API.| Google Maps SDK| |
 | 31| Juego del Ahorcado| Juego clásico de adivinar palabras.| Arrays, Eventos de teclado| |
 | 32| Tetris| Implementación del juego Tetris.| Canvas API, Lógica de juego| |

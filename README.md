@@ -37,7 +37,7 @@
 | 31| Generador de Contraseñas| Aplicación que crea contraseñas seguras con opciones de personalización.| JavaScript (Math.random, crypto.getRandomValues), CSS (interfaz)| [Enlace](https://gfrodriguez.github.io/50projects50days/password-generator/)|
 | 32| Bueno, Barato, Rápido	| Selector interactivo que demuestra el principio "Solo puedes elegir 2 de 3".| HTML (inputs tipo checkbox), CSS (animaciones, :checked), JavaScript (lógica de desactivación)| [Enlace](https://gfrodriguez.github.io/50projects50days/good-cheap-fast/)|
 | 33| Aplicación de Notas| App para crear, editar, eliminar y buscar notas con almacenamiento local.| HTML5 (ContentEditable), CSS (Grid/Flexbox), JavaScript (CRUD, localStorage)| [Enlace](https://gfrodriguez.github.io/50projects50days/notes-app/)|
-| 30| Mapas Interactivos| Integración de mapas con Google Maps API.| Google Maps SDK| |
+| 34| Cuenta atrás animado| Animación secuencial de números que "caen" antes de revelar un mensaje final.| CSS (@keyframes), JavaScript (Eventos animationend), DOM Manipulation| [Enlace](https://gfrodriguez.github.io/50projects50days/animated-countdown/)|
 | 31| Juego del Ahorcado| Juego clásico de adivinar palabras.| Arrays, Eventos de teclado| |
 | 32| Tetris| Implementación del juego Tetris.| Canvas API, Lógica de juego| |
 | 33| Chat en Tiempo Real| Chat básico con actualización en tiempo real.| Firebase, Eventos| |

@@ -39,7 +39,7 @@
 | 33| Aplicación de Notas| App para crear, editar, eliminar y buscar notas con almacenamiento local.| HTML5 (ContentEditable), CSS (Grid/Flexbox), JavaScript (CRUD, localStorage)| [Enlace](https://gfrodriguez.github.io/50projects50days/notes-app/)|
 | 34| Cuenta atrás animado| Animación secuencial de números que "caen" antes de revelar un mensaje final.| CSS (@keyframes), JavaScript (Eventos animationend), DOM Manipulation| [Enlace](https://gfrodriguez.github.io/50projects50days/animated-countdown/)|
 | 35| Carrusel de Imágenes | Componente que muestra imágenes en un slide automático/manual con transiciones suaves.| CSS (Flexbox/Grid), JavaScript (Eventos, Timer)| [Enlace](https://gfrodriguez.github.io/50projects50days/image-carousel/)|
-| 32| Tetris| Implementación del juego Tetris.| Canvas API, Lógica de juego| |
+| 36| Hoverboard| Grid interactivo donde los cuadrados cambian de color al pasar el mouse sobre ellos.| CSS Grid, JavaScript (Eventos mouseover), Generación dinámica de elementos| [Enlace](https://gfrodriguez.github.io/50projects50days/hoverboard/)|
 | 33| Chat en Tiempo Real| Chat básico con actualización en tiempo real.| Firebase, Eventos| |
 | 34| App de Dibujo| Permite dibujar en un lienzo.| Canvas, Eventos de mouse| |
 | 35| Machine Learning Básico| Clasificador de imágenes con TensorFlow.js.| TensorFlow.js, ML| |

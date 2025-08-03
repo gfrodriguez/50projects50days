@@ -1,24 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
-
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400&display=swap);
 * {
   box-sizing: border-box;
 }
-
 body {
   background: #efefbb;
   background: linear-gradient(to right, #d4d3dd, #efefbb);
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0;
 }
-
 h1 {
   letter-spacing: 3px;
 }
-
 .poke-container {
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +23,6 @@ h1 {
   margin: 0 auto;
   max-width: 1200px;
 }
-
 .pokemon {
   background-color: #eee;
   border-radius: 10px;
@@ -36,7 +31,6 @@ h1 {
   padding: 20px;
   text-align: center;
 }
-
 .pokemon .img-container {
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 50%;
@@ -44,24 +38,149 @@ h1 {
   height: 120px;
   text-align: center;
 }
-
 .pokemon .img-container img {
   max-width: 90%;
   margin-top: 20px;
 }
-
 .pokemon .info {
   margin-top: 20px;
 }
-
 .pokemon .info .number {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 5px 10px;
   border-radius: 10px;
   font-size: 0.8em;
 }
-
 .pokemon .info .name {
   margin: 15px 0 7px;
   letter-spacing: 1px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-content {
+  width: 85%;
+  max-width: 450px;
+  margin: 5% auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  animation: 0.3s ease-out slideIn;
+  overflow: hidden;
+}
+.modal-header {
+  padding: 15px;
+  color: #fff;
+  position: relative;
+}
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.modal-header small {
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+.modal-body {
+  padding: 15px;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.modal-body img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 10px;
+  display: block;
+}
+.modal-body p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.modal .stats {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.modal .stat {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.modal .stat span {
+  width: 120px;
+  font-weight: 700;
+  color: #2c3e50;
+  text-transform: capitalize;
+}
+.modal .stat-bar {
+  background: linear-gradient(90deg, #4caf50, #8bc34a);
+  color: #fff;
+  border-radius: 4px;
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: 700;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  transition: width 0.5s;
+}
+.close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+@media (max-width: 480px) {
+  .modal-content {
+    width: 90%;
+    margin: 10% auto;
+  }
+  .modal-body img {
+    width: 120px;
+    height: 120px;
+  }
+  .stat span {
+    width: 80px;
+  }
+}
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.pagination {
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.pagination button {
+  padding: 10px 15px;
+  font-weight: bold;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pagination button.active {
+  background-color: #666;
+}
+.pagination button:disabled {
+  background-color: #aaa;
+  cursor: default;
 }

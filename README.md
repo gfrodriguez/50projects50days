@@ -41,7 +41,7 @@
 | 35| Carrusel de Imágenes | Componente que muestra imágenes en un slide automático/manual con transiciones suaves.| CSS (Flexbox/Grid), JavaScript (Eventos, Timer)| [Enlace](https://gfrodriguez.github.io/50projects50days/image-carousel/)|
 | 36| Hoverboard| Grid interactivo donde los cuadrados cambian de color al pasar el mouse sobre ellos.| CSS Grid, JavaScript (Eventos mouseover), Generación dinámica de elementos| [Enlace](https://gfrodriguez.github.io/50projects50days/hoverboard/)|
 | 37| Pokédex| Aplicación que muestra información de Pokémon con búsqueda y paginación.| PokeAPI, Fetch/Async-Await, CSS Grid| [Enlace](https://gfrodriguez.github.io/50projects50days/pokedex/)|
-| 34| App de Dibujo| Permite dibujar en un lienzo.| Canvas, Eventos de mouse| |
+| 38| Navegación por Pestañas Móvil| Barra de navegación con pestañas estilo móvil con transiciones fluidas.| HTML5, CSS Flexbox, JavaScript (Eventos)| [Enlace](https://gfrodriguez.github.io/50projects50days/mobile-tab-navigation/)|
 | 35| Machine Learning Básico| Clasificador de imágenes con TensorFlow.js.| TensorFlow.js, ML| |
 | 36| Galería de Imágenes con Filtros| Filtra imágenes por categorías con efectos.| CSS Filters, data-* attributes| |
 | 37| Menú Acordeón| Secciones colapsables que se expanden al hacer clic.| CSS transition, classList.toggle()| |

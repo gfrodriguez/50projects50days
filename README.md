@@ -43,7 +43,7 @@
 | 37| Pokédex| Aplicación que muestra información de Pokémon con búsqueda y paginación.| PokeAPI, Fetch/Async-Await, CSS Grid| [Enlace](https://gfrodriguez.github.io/50projects50days/pokedex/)|
 | 38| Navegación por Pestañas Móvil| Barra de navegación con pestañas estilo móvil con transiciones fluidas.| HTML5, CSS Flexbox, JavaScript (Eventos)| [Enlace](https://gfrodriguez.github.io/50projects50days/mobile-tab-navigation/)|
 | 39| Fondo de Fuerza de Contraseña| Efecto visual donde el fondo cambia de color/blur según la fortaleza de la contraseña.| CSS (filter, transition), JavaScript (event listeners)| [Enlace](https://gfrodriguez.github.io/50projects50days/password-strength-background/)|
-| 36| Galería de Imágenes con Filtros| Filtra imágenes por categorías con efectos.| CSS Filters, data-* attributes| |
+| 40| Cajas 3D de Fondo| Escena tridimensional con cajas flotantes que responden al click de un botón.| CSS 3D Transforms, JavaScript (Eventos de Ratón), requestAnimationFrame| [Enlace](https://50projects50days.com/projects/3d-background-boxes/)|
 | 37| Menú Acordeón| Secciones colapsables que se expanden al hacer clic.| CSS transition, classList.toggle()| |
 | 38| Juego de Memoria| Encuentra pares de cartas iguales.| setTimeout, Lógica de arrays| |
 | 39| Slider de Testimonios| Carrusel de testimonios con transiciones suaves.| CSS transform, Eventos de navegación| |

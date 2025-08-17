@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar cuenta</title>
+    <meta name="description" content="Componente para ingresar códigos de verificación con validación en tiempo real.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Verificar cuenta</h1>
+        <p>Le hemos enviado por correo electrónico el código de seis dígitos a cool_guy@email.com <br/> Introduzca el código a continuación para confirmar su dirección de correo electrónico.</p>
+        <div class="code-container">
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+            <input type="number" class="code" placeholder="0" min="0" max="9" required>
+        </div>
+        <small class="info">
+            Esto es solo un diseño. En realidad no te hemos enviado ningún correo electrónico, ya que no tenemos tu dirección, ¿verdad?
+        </small>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

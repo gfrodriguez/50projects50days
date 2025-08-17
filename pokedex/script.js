@@ -145,11 +145,11 @@ const callPokeAPI = async (id) => {
         await removeDuplicates(pokeInfo.weakness)
       );
       pokeInfo.stats = {};
-      j = 0;
       for (i of dataPoke.stats) {
         pokeInfo.stats[i.stat.name] = i.base_stat;
-        j++;
       }
+      const {hp: Vida,attack: Ataque,defense: Defensa,'special-attack': Ataque_Especial, 'special-defense': Defensa_Especial,speed: Velocidad,...rest} = pokeInfo.stats;
+      pokeInfo.stats = { Vida, Ataque, Defensa, Ataque_Especial, Defensa_Especial, Velocidad, ...rest };
     } catch (id) {
       pokeInfo.id = "";
       pokeInfo.name = "";
@@ -231,7 +231,7 @@ const createPokemonCard = (pokemon) => {
     <small>${pokemon.genus}</small>
   </div>
   <div class="modal-body">
-    <img src="${pokemon.image}" alt="${pokemon.name}">
+    <img src="${pokemon.image}" alt="${pokemon.name}" loading="lazy">
     <p>${pokemon.description}</p>
     
     <p><strong>Altura:</strong> ${pokemon.height} m</p>
@@ -239,21 +239,20 @@ const createPokemonCard = (pokemon) => {
     
     <p><strong>Tipo:</strong> ${Object.values(pokemon.types).join(", ")}</p>
     <p><strong>Debilidades:</strong> ${Object.values(pokemon.weakness).join(
-      ", "
-    )}</p>
+    ", "
+  )}</p>
     
     <p><strong>Habilidades:</strong> ${Object.values(pokemon.abilities).join(
-      ", "
-    )}</p>
+    ", "
+  )}</p>
 
     <div class="stats">
       ${Object.entries(pokemon.stats)
-        .map(([stat, value]) => {
-          return `<div class="stat"><span>${stat}:</span><div class="stat-bar" style="width:${
-            value / 2
+      .map(([stat, value]) => {
+        return `<div class="stat"><span>${stat}:</span><div class="stat-bar" style="width:${value / 2
           }%">${value}</div></div>`;
-        })
-        .join("")}
+      })
+      .join("")}
     </div>
   </div>
 </div>
@@ -282,14 +281,12 @@ function renderPagination(currentPage) {
   const pagination = document.getElementById("pagination");
   pagination.innerHTML = "";
 
-  // Botón Anterior
   const prevBtn = document.createElement("button");
   prevBtn.textContent = "Anterior";
   prevBtn.disabled = currentPage === 1;
   prevBtn.onclick = () => fetchPokemons(currentPage - 1);
   pagination.appendChild(prevBtn);
 
-  // Números de página (puedes limitar a ±2 páginas si quieres)
   for (let i = 1; i <= totalPages; i++) {
     if (i === 1 || i === totalPages || (i >= currentPage - 2 && i <= currentPage + 2)) {
       const btn = document.createElement("button");
@@ -307,7 +304,6 @@ function renderPagination(currentPage) {
     }
   }
 
-  // Botón Siguiente
   const nextBtn = document.createElement("button");
   nextBtn.textContent = "Siguiente";
   nextBtn.disabled = currentPage === totalPages;

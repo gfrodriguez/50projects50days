@@ -53,7 +53,7 @@ const callPokeAPI = async (id) => {
       const dataPokeEspecies = await resPokeEspecies.json();
       pokeInfo.id = dataPoke.id;
       pokeInfo.name = dataPoke.name;
-      pokeInfo.image = dataPoke.sprites.other["official-artwork"].front_default;
+      pokeInfo.image = dataPoke.sprites.other["home"].front_default;
       pokeInfo.height = dataPoke.height / 10;
       pokeInfo.weight = dataPoke.weight / 10;
       for (let i of dataPokeEspecies.flavor_text_entries) {

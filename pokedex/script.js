@@ -206,7 +206,7 @@ const createPokemonCard = (pokemon) => {
   const pokemonInnerHTML =
     `
     <div class="img-container">
-        <img src="${pokemon.image}" alt="${pokemon.name}" loading="lazy"/>
+        <img loading="lazy" src="${pokemon.image}" alt="${pokemon.name}"/>
     </div>
     <div class="info">
         <span class="number">#${id}</span>

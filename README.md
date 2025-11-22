@@ -46,7 +46,7 @@
 | 40| Cajas 3D de Fondo| Escena tridimensional con cajas flotantes que responden al click de un botón.| CSS 3D Transforms, JavaScript (Eventos de Ratón), requestAnimationFrame| [Enlace](https://gfrodriguez.github.io/50projects50days/3d-background-boxes/)|
 | 41| Interfaz de Verificación| Componente para ingresar códigos de verificación con validación en tiempo real.| HTML5 (input patterns), CSS (focus states), JavaScript (validación, auto-focus)| [Enlace](https://gfrodriguez.github.io/50projects50days/verify-account-ui/)|
 | 42| Filtro de Usuarios en Tiempo Real| Componente que busca y filtra usuarios mientras se escribe con resultados instantáneos.| JavaScript (Filter, Fetch), CSS (Animaciones), Debounce, API Random User| [Enlace](https://gfrodriguez.github.io/50projects50days/live-user-filter/)|
-| 39| Slider de Testimonios| Carrusel de testimonios con transiciones suaves.| CSS transform, Eventos de navegación| |
+| 43| Diseño de Interfaz de Retroalimentación | Componente interactivo para recoger feedback con emojis, ratings y comentarios.| CSS (Animaciones, Transiciones), JavaScript (Event Handling), Local Storage| [Enlace](https://gfrodriguez.github.io/50projects50days/feedback-ui-design/)|
 | 40| Generador de Frases Aleatorias| Muestra frases inspiradoras al azar.| Arrays, Math.random()| |
 | 42| Validación de Formulario| Valida campos de formulario en tiempo real.| Regex, Eventos input| |
 | 43| Calculadora de IMC| Calcula el Índice de Masa Corporal.| Formularios HTML, Cálculos matemáticos| |

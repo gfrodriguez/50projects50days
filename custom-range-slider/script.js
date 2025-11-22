@@ -1,7 +1,11 @@
 const range = document.getElementById('range')
+const body = document.body
 
 range.addEventListener('input', (e) => {
     const value = +e.target.value
+
+    body.style.setProperty('--alpha', value/100)
+
     const label = e.target.nextElementSibling
 
     const range_width = getComputedStyle(e.target).getPropertyValue('width')
